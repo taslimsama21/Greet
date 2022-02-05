@@ -1,0 +1,21 @@
+#resilience4j.ratelimiter:
+#  instances:
+#    greet:
+#      limitForPeriod: 2
+#      limitRefreshPeriod: 4s
+#      timeoutDuration: 0
+#      registerHealthIndicator: false
+#      eventConsumerBufferSize: 100
+
+
+#management.health.circuitbreakers.enabled: true
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  endpoint:
+#    health:
+#      show-details: always
+
